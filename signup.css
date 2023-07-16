@@ -1,0 +1,112 @@
+.background{
+    position: relative; left: 500px; top: 100px;
+    background-color: rgba(0,0,0,.75);;
+    width: 480px;
+    height: 450px;
+    
+    padding-right:-30px
+}
+
+input[type=text], input[type=password] {
+  width: 350px;
+  padding: 20px;
+  margin: 5px 0 22px 70px;
+  display: inline-block;
+  border: none;
+  background: #333;
+  color: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn  .background2{
+     width: 100%;
+  }
+}
+
+.para{
+    color: white;
+    position: relative;left: 20px; top: 1px;
+}
+
+.mera{
+    position: relative;left: -40px; top: 20px;
+}
+.sub{
+    position: relative;left: 90px;
+}
+
+.background2{
+    position: relative; left: -100px; top: 150px;
+    background-color: rgba(0,0,0,.75);
+    width:1560px;
+    height: 200px;
+    color: #737373;
+    padding-right:-30px
+}
+
+.container .navbar .left img{
+    background-color: rgba(0,0,0,.75);
+    
+    position: relative; top: 20px;
+    height: 50px;
+    position: absolute;
+    left: 35px;
+  }
+
+  .signhead{
+   position:fixed;top: 20px; left: 650px;
+    color: white;
+  }
+
+ .que{
+    position: relative;left: 270px; top: 50px;
+ }
+
+ .que2{
+    position: relative;left: 270px; top: 70px;
+ }
